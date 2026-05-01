@@ -1,0 +1,338 @@
+Results for ln_femur_circumference (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.953
+Model:                            OLS   Adj. R-squared:                  0.953
+Method:                 Least Squares   F-statistic:                 1.738e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -407.56
+No. Observations:                 863   AIC:                             819.1
+Df Residuals:                     861   BIC:                             828.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          -0.1132      0.042     -2.677      0.008      -0.196      -0.030
+ln_femur_circumference (mm)     2.3962      0.018    131.836      0.000       2.360       2.432
+==============================================================================
+Omnibus:                        3.193   Durbin-Watson:                   0.703
+Prob(Omnibus):                  0.203   Jarque-Bera (JB):                3.065
+Skew:                           0.142   Prob(JB):                        0.216
+Kurtosis:                       3.069   Cond. No.                         8.70
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_femur_diamter (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.932
+Model:                            OLS   Adj. R-squared:                  0.932
+Method:                 Least Squares   F-statistic:                 1.181e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -564.89
+No. Observations:                 863   AIC:                             1134.
+Df Residuals:                     861   BIC:                             1143.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                     2.6313      0.028     92.854      0.000       2.576       2.687
+ln_femur_diamter (mm)     2.4957      0.023    108.662      0.000       2.451       2.541
+==============================================================================
+Omnibus:                       24.908   Durbin-Watson:                   0.507
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.292
+Skew:                           0.418   Prob(JB):                     1.95e-06
+Kurtosis:                       3.180   Cond. No.                         3.35
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_femur_length (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.903
+Model:                            OLS   Adj. R-squared:                  0.903
+Method:                 Least Squares   F-statistic:                     8010.
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -718.66
+No. Observations:                 863   AIC:                             1441.
+Df Residuals:                     861   BIC:                             1451.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -4.7447      0.113    -42.163      0.000      -4.966      -4.524
+ln_femur_length (mm)     2.8176      0.031     89.496      0.000       2.756       2.879
+==============================================================================
+Omnibus:                       29.824   Durbin-Watson:                   0.278
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               15.319
+Skew:                           0.117   Prob(JB):                     0.000472
+Kurtosis:                       2.391   Cond. No.                         22.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_humerus_diameter (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.927
+Model:                            OLS   Adj. R-squared:                  0.926
+Method:                 Least Squares   F-statistic:                 1.086e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -598.58
+No. Observations:                 863   AIC:                             1201.
+Df Residuals:                     861   BIC:                             1211.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        1.8995      0.036     53.403      0.000       1.830       1.969
+ln_humerus_diameter (mm)     2.5618      0.025    104.191      0.000       2.514       2.610
+==============================================================================
+Omnibus:                      112.952   Durbin-Watson:                   1.146
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              444.577
+Skew:                          -0.560   Prob(JB):                     2.89e-97
+Kurtosis:                       6.333   Cond. No.                         4.38
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_humerus_length (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.936
+Model:                            OLS   Adj. R-squared:                  0.936
+Method:                 Least Squares   F-statistic:                 1.268e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -535.99
+No. Observations:                 863   AIC:                             1076.
+Df Residuals:                     861   BIC:                             1085.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -2.7731      0.072    -38.364      0.000      -2.915      -2.631
+ln_humerus_length (mm)     2.0719      0.018    112.627      0.000       2.036       2.108
+==============================================================================
+Omnibus:                       39.120   Durbin-Watson:                   0.389
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               43.383
+Skew:                           0.545   Prob(JB):                     3.80e-10
+Kurtosis:                       3.142   Cond. No.                         19.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_tarsus_circumference (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.915
+Model:                            OLS   Adj. R-squared:                  0.915
+Method:                 Least Squares   F-statistic:                     9224.
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -663.28
+No. Observations:                 863   AIC:                             1331.
+Df Residuals:                     861   BIC:                             1340.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================================
+                                   coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                            0.3970      0.053      7.504      0.000       0.293       0.501
+ln_tarsus_circumference (mm)     2.3355      0.024     96.043      0.000       2.288       2.383
+==============================================================================
+Omnibus:                       11.187   Durbin-Watson:                   0.863
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               12.081
+Skew:                          -0.220   Prob(JB):                      0.00238
+Kurtosis:                       3.377   Cond. No.                         7.71
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_tarsus_diameter (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.926
+Model:                            OLS   Adj. R-squared:                  0.926
+Method:                 Least Squares   F-statistic:                 1.083e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -599.63
+No. Observations:                 863   AIC:                             1203.
+Df Residuals:                     861   BIC:                             1213.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       3.1174      0.026    120.726      0.000       3.067       3.168
+ln_tarsus_diameter (mm)     2.3790      0.023    104.055      0.000       2.334       2.424
+==============================================================================
+Omnibus:                       21.567   Durbin-Watson:                   0.768
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.641
+Skew:                          -0.371   Prob(JB):                     1.21e-05
+Kurtosis:                       3.279   Cond. No.                         2.79
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_tarsus_length (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.646
+Model:                            OLS   Adj. R-squared:                  0.646
+Method:                 Least Squares   F-statistic:                     1573.
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):          1.64e-196
+Time:                        12:22:07   Log-Likelihood:                -1276.6
+No. Observations:                 863   AIC:                             2557.
+Df Residuals:                     861   BIC:                             2567.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                    -2.8666      0.206    -13.906      0.000      -3.271      -2.462
+ln_tarsus_length (mm)     2.2344      0.056     39.665      0.000       2.124       2.345
+==============================================================================
+Omnibus:                      133.313   Durbin-Watson:                   0.221
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.603
+Skew:                           0.125   Prob(JB):                     5.05e-08
+Kurtosis:                       2.066   Cond. No.                         22.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_tibia_length (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.858
+Model:                            OLS   Adj. R-squared:                  0.858
+Method:                 Least Squares   F-statistic:                     5202.
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -882.88
+No. Observations:                 863   AIC:                             1770.
+Df Residuals:                     861   BIC:                             1779.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   -5.7067      0.153    -37.369      0.000      -6.006      -5.407
+ln_tibia_length (mm)     2.6834      0.037     72.124      0.000       2.610       2.756
+==============================================================================
+Omnibus:                        9.657   Durbin-Watson:                   0.295
+Prob(Omnibus):                  0.008   Jarque-Bera (JB):                9.787
+Skew:                          -0.246   Prob(JB):                      0.00749
+Kurtosis:                       2.828   Cond. No.                         28.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_humerus_circumference (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.955
+Model:                            OLS   Adj. R-squared:                  0.955
+Method:                 Least Squares   F-statistic:                 1.823e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -387.88
+No. Observations:                 863   AIC:                             779.8
+Df Residuals:                     861   BIC:                             789.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                            -0.8143      0.046    -17.605      0.000      -0.905      -0.724
+ln_humerus_circumference (mm)     2.5085      0.019    135.026      0.000       2.472       2.545
+==============================================================================
+Omnibus:                       74.367   Durbin-Watson:                   0.928
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              280.145
+Skew:                          -0.323   Prob(JB):                     1.47e-61
+Kurtosis:                       5.716   Cond. No.                         10.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_coracoid HAF (mm):
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.988
+Model:                            OLS   Adj. R-squared:                  0.988
+Method:                 Least Squares   F-statistic:                 7.162e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                 187.76
+No. Observations:                 863   AIC:                            -371.5
+Df Residuals:                     861   BIC:                            -362.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    2.0006      0.014    146.940      0.000       1.974       2.027
+ln_coracoid HAF (mm)     2.4413      0.009    267.626      0.000       2.423       2.459
+==============================================================================
+Omnibus:                       65.802   Durbin-Watson:                   0.925
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              302.776
+Skew:                          -0.122   Prob(JB):                     1.79e-66
+Kurtosis:                       5.892   Cond. No.                         4.20
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_coracoid shaft width:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.928
+Model:                            OLS   Adj. R-squared:                  0.928
+Method:                 Least Squares   F-statistic:                 1.118e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -586.94
+No. Observations:                 863   AIC:                             1178.
+Df Residuals:                     861   BIC:                             1187.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       3.0225      0.026    115.698      0.000       2.971       3.074
+ln_coracoid shaft width     2.2725      0.021    105.717      0.000       2.230       2.315
+==============================================================================
+Omnibus:                      311.839   Durbin-Watson:                   0.550
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1644.224
+Skew:                          -1.565   Prob(JB):                         0.00
+Kurtosis:                       8.994   Cond. No.                         2.93
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for ln_coracoid max length:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               mass (g)   R-squared:                       0.936
+Model:                            OLS   Adj. R-squared:                  0.936
+Method:                 Least Squares   F-statistic:                 1.253e+04
+Date:                Tue, 31 Mar 2026   Prob (F-statistic):               0.00
+Time:                        12:22:07   Log-Likelihood:                -540.83
+No. Observations:                 863   AIC:                             1086.
+Df Residuals:                     861   BIC:                             1095.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     -5.1061      0.093    -54.795      0.000      -5.289      -4.923
+ln_coracoid max length     3.0593      0.027    111.955      0.000       3.006       3.113
+==============================================================================
+Omnibus:                      109.843   Durbin-Watson:                   0.337
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.126
+Skew:                           0.097   Prob(JB):                     2.87e-07
+Kurtosis:                       2.105   Cond. No.                         22.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
