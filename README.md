@@ -1,3 +1,48 @@
+# Estimating and Predicting Extant Avian Mass using Ridge Regression
+
+**Author:** John Adrian Ada  
+**Date:** April 20, 2026
+
+## Overview
+Accurate and precise mass estimates are crucial for studying both extinct and extant organisms within the class Aves (Birds). While various methods exist to estimate bird mass from skeletal measurements, this project utilizes Ordinary Least Squares (OLS) and Ridge Regression models with K-fold cross-validation to estimate and predict the body mass of flying, extant birds based on specific skeletal proportions.
+
+## Dataset
+The dataset utilized in this project is sourced from the **Vertebrate Zoology collection of the Yale Peabody Museum**.
+* **Sample Size:** 863 samples of extant, flying birds.
+* **Target Variable:** Mass (g)
+* **Features:** Various skeletal measurements including:
+  * Femur (circumference, diameter, length)
+  * Humerus (circumference, diameter, length)
+  * Tarsus (circumference, diameter, length)
+  * Tibia (length)
+  * Coracoid (HAF, shaft width, max length)
+
+## Methodology
+1. **Data Preprocessing:** All skeletal and mass measurements were log-transformed to account for the non-linear relationships inherent in the biological scaling data.
+2. **Train-Test Split:** The dataset was split into an 80-20 ratio for training and testing the model.
+3. **Model Selection:** Ordinary Least Squares (OLS) regression was explored initially. However, due to expected multicollinearity among the skeletal measurements, a **Ridge Regression model (L2 penalty)** was utilized to mitigate variance and improve generalizability. 
+
+## Key Findings & Results
+The Ridge Regression model proved highly effective at predicting avian mass with the following evaluation metrics:
+* **Mean Squared Error (MSE):** 0.0197
+* **Mean Absolute Error (MAE):** 0.0092
+* **Mean Absolute Percentage Error (MAPE):** 2.15%
+
+**Feature Importance:** The model identified the **coracoid humorous-articulating facet (HAF)** as the best predictor of avian body mass. Holding all else equal, there is a 232.8130% change in mass for every one standard deviation increase in the coracoid HAF measurement.
+
+## Limitations & Future Work
+* **Scope:** The current model is strictly limited to flying birds of similar size ranges to those present in the 863 samples. It may not generalize well to flightless birds (ratites) or birds with extreme mass outliers.
+* **Future Work:** More samples are needed to create a more robust model. Furthermore, alternative non-linear modeling methods should be explored to create a system where new, out-of-distribution entries can be introduced accurately.
+
+## Requirements
+To run the Jupyter Notebook (`Bird-OLS.ipynb`), the following libraries are required:
+* `numpy`
+* `pandas`
+* `matplotlib`
+* `seaborn`
+* `scikit-learn`
+* `statsmodels`
+
 # ABSTRACT
 
 Accurate and precise mass estimates are important, both, for extinct and extant
